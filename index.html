@@ -3,77 +3,186 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Travel Ginger Recipe</title>
+<title>Travel Ginger Guide</title>
+
 <style>
-body{font-family:Arial;margin:0;background:#f5fff7;color:#222}
-header{background:#16803c;color:white;text-align:center;padding:40px 15px}
-header h1{font-size:30px}
-.box{background:white;margin:18px;padding:20px;border-radius:15px;box-shadow:0 2px 10px #ddd}
-h2{color:#16803c}
-li{margin:10px 0}
-.price{text-align:center;background:#fff7ed}
-.amount{font-size:36px;font-weight:bold;color:#c2410c}
-.buy{display:inline-block;background:#16a34a;color:white;padding:14px 30px;border-radius:10px;text-decoration:none;font-weight:bold}
-.note{background:#eff6ff}
-footer{background:#14532d;color:white;text-align:center;padding:20px}
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f7fff8;
+color:#222;
+line-height:1.6;
+}
+.hero{
+background:linear-gradient(135deg,#14532d,#22c55e);
+color:white;
+text-align:center;
+padding:48px 20px;
+}
+.hero h1{
+font-size:32px;
+margin:0 0 15px;
+}
+.hero p{
+font-size:18px;
+margin:0;
+}
+.box{
+background:white;
+margin:20px;
+padding:24px;
+border-radius:18px;
+box-shadow:0 4px 14px #ddd;
+}
+h2{
+color:#166534;
+margin-top:0;
+}
+.emotion{
+background:#fff7ed;
+border:2px solid #fed7aa;
+}
+.emotion h2{
+color:#c2410c;
+}
+.offer{
+text-align:center;
+background:#ecfdf5;
+border:2px solid #22c55e;
+}
+.price{
+font-size:42px;
+font-weight:bold;
+color:#c2410c;
+margin:10px 0;
+}
+.old{
+text-decoration:line-through;
+color:#777;
+font-size:18px;
+}
+.buy{
+display:inline-block;
+background:#16a34a;
+color:white;
+padding:16px 35px;
+border-radius:12px;
+text-decoration:none;
+font-size:19px;
+font-weight:bold;
+margin-top:15px;
+}
+.buy:active{
+transform:scale(.98);
+}
+.points{
+padding-left:20px;
+}
+.points li{
+margin:12px 0;
+}
+.note{
+background:#eff6ff;
+font-size:14px;
+}
+footer{
+background:#14532d;
+color:white;
+text-align:center;
+padding:22px;
+margin-top:30px;
+}
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>Travel Ginger Recipe 🌿</h1>
-<p>सफर के दौरान होने वाली परेशानी के लिए आसान Ginger Recipe</p>
-</header>
-
-<div class="box">
-<h2>🚌 सफर में परेशानी</h2>
-<p>कुछ लोगों को बस या कार में सफर करते समय जी मिचलाना, चक्कर या उल्टी जैसा महसूस हो सकता है।</p>
+<div class="hero">
+<h1>🌿 Travel Ginger Guide</h1>
+<p>सफर को परेशानी नहीं, खूबसूरत याद बनाइए ❤️</p>
 </div>
 
 <div class="box">
-<h2>🌿 सामग्री</h2>
-<ul>
-<li>ताजा अदरक</li>
-<li>नींबू</li>
-<li>शहद</li>
-<li>साफ पानी</li>
+<h2>🚌 क्या सफर आपके लिए मुश्किल हो जाता है?</h2>
+
+<p>
+बस, कार या लंबे सफर के दौरान कुछ लोगों को
+जी मिचलाने, बेचैनी या उल्टी जैसा महसूस हो सकता है।
+ऐसी परेशानी की वजह से कई बार लोग सफर करने से भी
+कतराने लगते हैं।
+</p>
+</div>
+
+<div class="box emotion">
+<h2>❤️ एक बात दिल से...</h2>
+
+<p>
+सफर सिर्फ एक जगह से दूसरी जगह पहुँचना नहीं होता।
+यह परिवार के साथ बिताया हुआ समय,
+दोस्तों के साथ की गई मस्ती और जिंदगी की खूबसूरत यादें होती हैं।
+</p>
+
+<p>
+लेकिन जब रास्ते में तबीयत परेशान करने लगे,
+तो वही सफर यादगार की जगह मुश्किल बन सकता है।
+</p>
+
+<p>
+<strong>
+हमने इसी समस्या को ध्यान में रखते हुए
+एक आसान Travel Ginger Guide तैयार की है,
+ताकि आप अपनी अगली यात्रा के लिए बेहतर तैयारी कर सकें।
+</strong>
+</p>
+</div>
+
+<div class="box">
+<h2>📚 Guide में क्या मिलेगा?</h2>
+
+<ul class="points">
+<li>Travel के दौरान परेशानी को समझने की आसान जानकारी</li>
+<li>Ginger से जुड़ी उपयोगी जानकारी</li>
+<li>Travel से पहले और दौरान ध्यान रखने वाली बातें</li>
+<li>आसान और practical Travel Tips</li>
+<li>एक जगह पर व्यवस्थित पूरी जानकारी</li>
 </ul>
 </div>
 
-<div class="box">
-<h2>🥤 बनाने का तरीका</h2>
-<ol>
-<li>अदरक को अच्छी तरह धोएं।</li>
-<li>थोड़ा अदरक कद्दूकस करें।</li>
-<li>साफ पानी में मिलाएं।</li>
-<li>थोड़ा नींबू और शहद मिलाएं।</li>
-</ol>
-</div>
+<div class="box offer">
 
-<div class="box">
-<h2>💡 Travel Tips</h2>
-<ul>
-<li>सफर से पहले बहुत भारी खाना न खाएं।</li>
-<li>पानी पर्याप्त मात्रा में पिएं।</li>
-<li>सफर के दौरान आराम से बैठें।</li>
-</ul>
-</div>
+<h2>🌿 पूरी Travel Ginger Guide</h2>
 
-<div class="box price">
-<h2>📚 पूरी Recipe & Guide</h2>
-<p>पूरी जानकारी और detailed travel guide पाने के लिए आगे बढ़ें।</p>
-<div class="amount">₹799</div>
-<a class="buy" href="#">अभी खरीदें</a>
+<p>
+अगर आप अगली यात्रा को लेकर बेहतर तैयारी करना चाहते हैं,
+तो पूरी Guide यहाँ उपलब्ध है।
+</p>
+
+<div class="old">₹999</div>
+
+<div class="price">₹799</div>
+
+<p>
+<strong>एक बार खरीदें और Guide को अपने पास रखें।</strong>
+</p>
+
+<a class="buy" href="#">
+अभी खरीदें →
+</a>
+
 </div>
 
 <div class="box note">
-<b>⚠️ जरूरी सूचना</b>
-<p>यह सामान्य जानकारी है, चिकित्सकीय सलाह नहीं। गंभीर या लगातार समस्या होने पर डॉक्टर से सलाह लें।</p>
+<strong>⚠️ जरूरी सूचना</strong>
+<p>
+यह जानकारी सामान्य शैक्षिक उद्देश्य के लिए है।
+यह किसी बीमारी का इलाज या चिकित्सकीय सलाह नहीं है।
+लगातार या गंभीर समस्या होने पर योग्य डॉक्टर से सलाह लें।
+</p>
 </div>
 
 <footer>
-© 2026 Travel Ginger Recipe
+© 2026 Travel Ginger Guide
 </footer>
 
 </body>
