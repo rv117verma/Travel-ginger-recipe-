@@ -4,388 +4,348 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Travel Ginger Candy | Video Guide</title>
+<title>Travel Ginger Candy | Secret Recipe</title>
 
 <style>
 
 *{
-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#f5fff7;
-color:#222;
-line-height:1.7;
-font-size:17px;
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f7fff8;
+    color:#1f2937;
+    line-height:1.7;
+    font-size:17px;
 }
-
-/* HEADER */
 
 header{
-background:linear-gradient(135deg,#075b2b,#20a653);
-color:white;
-text-align:center;
-padding:45px 20px 30px;
+    background:linear-gradient(135deg,#064e2a,#159447);
+    color:white;
+    text-align:center;
+    padding:42px 20px 32px;
 }
 
-header .small{
-font-size:15px;
-font-weight:bold;
-letter-spacing:1px;
+.small{
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:1px;
 }
 
 header h1{
-font-size:38px;
-margin:12px 0;
+    font-size:48px;
+    margin:10px 0;
 }
 
 header p{
-font-size:19px;
-max-width:850px;
-margin:auto;
+    font-size:21px;
+    margin:5px auto;
+    max-width:850px;
 }
-
-/* MAIN CONTAINER */
 
 .container{
-max-width:1100px;
-margin:auto;
-padding:18px;
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
 }
 
-/* MAIN PHOTO */
+.hero{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+    align-items:center;
+    background:white;
+    border-radius:24px;
+    padding:22px;
+    margin:20px 0 30px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
 
-.hero-photo{
-max-width:1000px;
-margin:20px auto 28px;
+.hero-text h2{
+    color:#126b35;
+    font-size:31px;
+    margin-top:0;
+}
+
+.hero-text .english{
+    font-size:18px;
+    color:#555;
 }
 
 .hero-photo img{
-width:100%;
-height:380px;
-object-fit:cover;
-display:block;
-border-radius:28px;
-box-shadow:0 5px 20px rgba(0,0,0,.15);
+    width:100%;
+    height:370px;
+    object-fit:cover;
+    border-radius:20px;
+    display:block;
 }
 
-/* BOX */
+.highlight{
+    background:#effbea;
+    border-left:5px solid #22a447;
+    padding:15px 18px;
+    border-radius:10px;
+    margin:18px 0;
+}
 
 .box{
-background:white;
-margin:25px auto;
-padding:30px;
-border-radius:18px;
-box-shadow:0 4px 15px rgba(0,0,0,.08);
+    background:white;
+    margin:25px 0;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 4px 15px rgba(0,0,0,.07);
 }
 
 h2{
-color:#126b35;
-font-size:28px;
-margin-top:0;
+    color:#126b35;
+    font-size:28px;
+    margin-top:0;
 }
 
-/* STORY */
-
-.story{
-background:#fbfffc;
-border:1px solid #d8efdd;
+.english{
+    color:#555;
+    font-size:16px;
 }
-
-/* FEATURES */
 
 .features{
-display:grid;
-grid-template-columns:repeat(4,1fr);
-gap:16px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
 }
 
 .feature{
-background:#f1fff5;
-padding:22px 15px;
-border-radius:15px;
-text-align:center;
-border:1px solid #d4ecd9;
+    background:#f2fff5;
+    border:1px solid #d8efdd;
+    padding:20px 12px;
+    border-radius:15px;
+    text-align:center;
 }
 
 .feature-icon{
-font-size:40px;
-margin-bottom:5px;
+    font-size:38px;
 }
 
 .feature b{
-font-size:18px;
-color:#126b35;
+    display:block;
+    color:#126b35;
+    font-size:17px;
 }
 
 .feature p{
-font-size:15px;
-margin-bottom:0;
+    font-size:14px;
+    margin-bottom:0;
 }
-
-/* TWO COLUMN */
 
 .two-column{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:20px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
 }
-
-/* SMALL CANDY PHOTO */
-
-.candy-box{
-position:relative;
-overflow:hidden;
-background:linear-gradient(135deg,#f5fff7,#ffffff);
-}
-
-.candy-small{
-width:200px;
-height:130px;
-object-fit:cover;
-border-radius:20px;
-float:right;
-margin-left:20px;
-}
-
-/* STEPS */
 
 .steps li{
-margin:15px 0;
+    margin:15px 0;
 }
 
-/* EXPERIENCE */
-
-.experience{
-background:#f8fff9;
+.secret{
+    background:linear-gradient(135deg,#f1fff3,#fffdf5);
+    border:1px solid #d6ead9;
 }
 
-/* OFFER */
+.secret-title{
+    font-size:24px;
+    color:#126b35;
+    font-weight:bold;
+}
 
 .offer{
-text-align:center;
-background:#fff8ed;
-border:2px solid #f59e0b;
+    text-align:center;
+    background:#fffaf0;
+    border:2px solid #f59e0b;
 }
 
-.offer .special{
-display:inline-block;
-background:#ea580c;
-color:white;
-padding:7px 30px;
-border-radius:5px;
-font-size:14px;
-font-weight:bold;
-letter-spacing:2px;
+.special{
+    display:inline-block;
+    background:#ea580c;
+    color:white;
+    padding:6px 25px;
+    border-radius:20px;
+    font-size:13px;
+    font-weight:bold;
+    letter-spacing:1px;
 }
 
 .offer h2{
-color:#9a3412;
-margin:15px 0 5px;
+    color:#9a3412;
+    margin:15px 0 5px;
 }
 
 .amount{
-font-size:58px;
-font-weight:bold;
-color:#c2410c;
-margin:8px 0;
+    font-size:58px;
+    font-weight:bold;
+    color:#b45309;
+    margin:5px 0;
 }
 
 .lifetime{
-font-size:20px;
-font-weight:bold;
-margin-bottom:20px;
+    font-size:19px;
+    font-weight:bold;
 }
 
 .buy{
-display:inline-block;
-background:#16a34a;
-color:white;
-text-decoration:none;
-padding:16px 38px;
-border-radius:12px;
-font-size:20px;
-font-weight:bold;
-box-shadow:0 4px 10px rgba(0,0,0,.15);
+    display:inline-block;
+    margin-top:20px;
+    background:#16a34a;
+    color:white;
+    text-decoration:none;
+    padding:16px 38px;
+    border-radius:12px;
+    font-size:20px;
+    font-weight:bold;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
 }
 
 .buy:hover{
-background:#15803d;
+    background:#15803d;
 }
 
 .secure{
-font-size:14px;
-margin-top:12px;
-color:#555;
+    font-size:14px;
+    color:#555;
+    margin-top:12px;
 }
 
-/* FAQ */
-
 .faq{
-background:#f8fff9;
-padding:15px 18px;
-border-radius:12px;
-margin-bottom:14px;
+    background:#f8fff9;
+    padding:17px;
+    border-radius:12px;
+    margin-bottom:12px;
+    border:1px solid #e0eee3;
 }
 
 .faq b{
-font-size:18px;
-color:#126b35;
+    color:#126b35;
+    font-size:18px;
 }
-
-/* NOTE */
 
 .note{
-background:#eff6ff;
-border-left:6px solid #2563eb;
+    background:#eff6ff;
+    border-left:6px solid #2563eb;
 }
 
-/* FOOTER */
-
 footer{
-background:#064e26;
-color:white;
-text-align:center;
-padding:25px 15px;
-margin-top:30px;
+    background:#064e26;
+    color:white;
+    text-align:center;
+    padding:25px 15px;
+    margin-top:30px;
 }
 
 /* MOBILE */
 
 @media(max-width:700px){
 
-header{
-padding:35px 15px 25px;
-}
+    body{
+        font-size:16px;
+    }
 
-header h1{
-font-size:30px;
-}
+    header{
+        padding:32px 15px 25px;
+    }
 
-header p{
-font-size:17px;
-}
+    header h1{
+        font-size:31px;
+    }
 
-.container{
-padding:10px;
-}
+    header p{
+        font-size:17px;
+    }
 
-.box{
-padding:21px;
-margin:17px 0;
-}
+    .container{
+        padding:10px;
+    }
 
-h2{
-font-size:24px;
-}
+    .hero{
+        grid-template-columns:1fr;
+        padding:15px;
+        border-radius:18px;
+    }
 
-/* MOBILE PHOTO */
+    .hero-text h2{
+        font-size:25px;
+    }
 
-.hero-photo{
-margin:15px auto 22px;
-}
+    .hero-photo img{
+        height:250px;
+    }
 
-.hero-photo img{
-height:230px;
-border-radius:22px;
-}
+    .box{
+        padding:21px;
+        margin:17px 0;
+    }
 
-/* FEATURES */
+    h2{
+        font-size:24px;
+    }
 
-.features{
-grid-template-columns:1fr 1fr;
-gap:10px;
-}
+    .features{
+        grid-template-columns:1fr 1fr;
+        gap:10px;
+    }
 
-.feature{
-padding:16px 8px;
-}
+    .feature{
+        padding:15px 8px;
+    }
 
-.feature-icon{
-font-size:32px;
-}
+    .feature-icon{
+        font-size:30px;
+    }
 
-.feature b{
-font-size:16px;
-}
+    .feature b{
+        font-size:15px;
+    }
 
-.feature p{
-font-size:13px;
-}
+    .feature p{
+        font-size:13px;
+    }
 
-/* TWO COLUMN */
+    .two-column{
+        grid-template-columns:1fr;
+    }
 
-.two-column{
-grid-template-columns:1fr;
-}
+    .amount{
+        font-size:46px;
+    }
 
-/* SMALL PHOTO */
-
-.candy-small{
-width:100%;
-height:180px;
-float:none;
-margin:10px 0 15px;
-}
-
-/* PRICE */
-
-.amount{
-font-size:45px;
-}
-
-.buy{
-font-size:18px;
-padding:14px 25px;
-}
-
-}
-
-/* DESKTOP */
-
-@media(min-width:768px){
-
-body{
-font-size:18px;
-}
-
-header h1{
-font-size:50px;
-}
-
-header p{
-font-size:22px;
-}
-
-.feature p{
-font-size:16px;
-}
-
+    .buy{
+        width:100%;
+        font-size:18px;
+        padding:14px 15px;
+    }
 }
 
 </style>
-
 </head>
 
 <body>
-
 
 <!-- HEADER -->
 
 <header>
 
 <div class="small">
-🌿 EXCLUSIVE VIDEO GUIDE 🌿
+🌿 EXCLUSIVE VIDEO GUIDE • खास वीडियो गाइड
 </div>
 
-<h1>
-Travel Ginger Candy 🌿
-</h1>
+<h1>Travel Ginger Candy 🌿</h1>
 
 <p>
-सफर के लिए मेरी 3 साल की मेहनत से तैयार की गई खास Recipe
+Ginger और कुछ Secret मसालों से बनी खास Travel Candy
+</p>
+
+<p>
+A special travel candy made with ginger & secret spices.
 </p>
 
 </header>
@@ -394,145 +354,152 @@ Travel Ginger Candy 🌿
 <div class="container">
 
 
+<!-- HERO -->
 
+<section class="hero">
+
+<div class="hero-text">
+
+<h2>
+सफर के लिए मेरी खास Recipe
+</h2>
+
+<p class="english">
+My special recipe created especially to carry along during travel.
+</p>
+
+<div class="highlight">
+
+<strong>
+अगर आपको भी travel के समय परेशानी या बेचैनी महसूस होती है,
+तो यह Travel Candy आपके लिए उपयोगी हो सकती है।
+</strong>
+
+<br><br>
+
+If you sometimes feel uncomfortable while travelling,
+this travel candy may be a useful companion for your journey.
+
+</div>
+
+<p>
+इसे घर की kitchen में बनाकर पहले से तैयार किया जा सकता है
+और सफर के समय अपने साथ रखा जा सकता है।
+</p>
+
+<p class="english">
+You can prepare it at home and keep it ready to carry
+with you during your travels.
+</p>
+
+</div>
+
+
+<div class="hero-photo">
+
+<img src="ginger-candy.jpg"
+alt="Homemade Travel Ginger Candy">
+
+</div>
+
+</section>
 
 
 <!-- STORY -->
 
-<div class="box story">
-
-<h2>❤️ मेरी कहानी</h2>
-
-<p>
-पहले जब भी मैं बस, ट्रेन या कार में सफर करता था,
-तो मुझे चक्कर आने लगते थे, उल्टी जैसा महसूस होता था
-और Motion Sickness की वजह से मैं काफी परेशान रहता था।
-</p>
-
-<p>
-लोगों ने मुझे कई चीजें और घरेलू उपाय बताए।
-मैंने अलग-अलग चीजें आजमाकर देखीं, लेकिन मुझे
-मनचाहा फायदा नहीं मिला।
-</p>
-
-<p>
-इसके बाद मैंने इस परेशानी पर लगातार
-<strong>3 साल तक काम</strong> किया और कई चीजें आजमाईं।
-आखिरकार मैंने <strong>Travel Ginger Candy</strong> की
-अपनी Recipe तैयार की, जिसका इस्तेमाल करने पर
-मुझे अपने अनुभव में काफी फायदा महसूस हुआ।
-</p>
-
-<p>
-अब आप भी इसे बनाना सीखकर घर पर तैयार कर सकते हैं
-और सफर के समय अपने साथ रख सकते हैं। ❤️
-</p>
-
-</div>
-
-
-<!-- CANDY SECTION -->
-
-<div class="box candy-box">
-
-<img src="ginger-candy.jpg"
-class="candy-small"
-alt="Ginger Candy">
+<div class="box">
 
 <h2>
-🌿 Travel Ginger Candy
+❤️ मेरी कहानी • My Story
 </h2>
 
 <p>
-मेरा उद्देश्य ऐसी Ginger Candy तैयार करना था जिसे
-पहले से बनाकर बस, कार या ट्रेन के सफर में आसानी से
-अपने साथ रखा जा सके।
+<strong>
+Traveling Ginger Candy मेरी Secret Recipe है,
+जिसे मैंने खुद 3 साल की मेहनत और अलग-अलग प्रयोगों के बाद तैयार किया है।
+</strong>
+</p>
+
+<p class="english">
+Traveling Ginger Candy is my secret recipe,
+developed by me after 3 years of effort and experimentation.
 </p>
 
 <p>
-इस Video Guide में आपको इसे तैयार करने की पूरी
-प्रक्रिया Step-by-Step समझाई जाएगी।
+मेरा उद्देश्य ऐसी recipe तैयार करना था जिसे घर पर बनाया जा सके
+और travel के समय आसानी से अपने साथ रखा जा सके।
+</p>
+
+<p class="english">
+My goal was to create a recipe that could be prepared at home
+and conveniently carried during travel.
 </p>
 
 </div>
 
 
-<!-- FEATURES -->
+<!-- SECRET RECIPE -->
+
+<div class="box secret">
+
+<div class="secret-title">
+🌿 Ginger + Secret मसाले
+</div>
+
+<p>
+यह खास recipe <strong>Ginger और कुछ Secret मसालों</strong> के combination
+से तैयार की जाती है।
+</p>
+
+<p class="english">
+This special recipe is made using ginger combined with
+a few secret spices.
+</p>
+
+<p>
+पूरी सामग्री और बनाने की सही प्रक्रिया आपको हमारी
+<strong>Step-by-Step Video Guide</strong> में बताई जाएगी।
+</p>
+
+</div>
+
+
+<!-- WHAT YOU GET -->
 
 <div class="box">
 
 <h2>
-🎥 Video में आपको क्या मिलेगा?
+🎥 क्या मिलेगा? • What You'll Get
 </h2>
 
 <div class="features">
 
 
 <div class="feature">
-
-<div class="feature-icon">
-🌿
-</div>
-
-<b>
-पूरी Recipe
-</b>
-
-<p>
-सामग्री और तैयारी की पूरी जानकारी।
-</p>
-
+<div class="feature-icon">🎥</div>
+<b>Step-by-Step Video</b>
+<p>आसान तरीके से पूरी प्रक्रिया समझें।</p>
 </div>
 
 
 <div class="feature">
-
-<div class="feature-icon">
-👨‍🍳
-</div>
-
-<b>
-Step-by-Step तरीका
-</b>
-
-<p>
-वीडियो में बनाने की प्रक्रिया समझाई जाएगी।
-</p>
-
+<div class="feature-icon">🌿</div>
+<b>Complete Recipe</b>
+<p>सामग्री और बनाने की जानकारी।</p>
 </div>
 
 
 <div class="feature">
-
-<div class="feature-icon">
-🚌
-</div>
-
-<b>
-Travel के लिए तैयारी
-</b>
-
-<p>
-इसे पहले से तैयार करके रखने का तरीका।
-</p>
-
+<div class="feature-icon">👨‍🍳</div>
+<b>Making Tips</b>
+<p>Recipe को सही तरीके से तैयार करने के tips।</p>
 </div>
 
 
 <div class="feature">
-
-<div class="feature-icon">
-♾️
-</div>
-
-<b>
-Lifetime Access
-</b>
-
-<p>
-एक बार खरीदें और video guide दोबारा देखें।
-</p>
-
+<div class="feature-icon">♾️</div>
+<b>Lifetime Access</b>
+<p>एक बार खरीदें और दोबारा देखें।</p>
 </div>
 
 
@@ -541,7 +508,7 @@ Lifetime Access
 </div>
 
 
-<!-- HOW TO GET + EXPERIENCE -->
+<!-- HOW IT WORKS -->
 
 <div class="two-column">
 
@@ -549,25 +516,24 @@ Lifetime Access
 <div class="box">
 
 <h2>
-📖 कैसे मिलेगा?
+📖 कैसे मिलेगा? • How It Works
 </h2>
 
 <ol class="steps">
 
 <li>
-नीचे दिए गए <strong>Buy Now</strong> button पर जाएँ।
+<strong>₹199 का payment करें</strong><br>
+Make a one-time payment of ₹199.
 </li>
 
 <li>
-₹799 का payment पूरा करें।
+<strong>Video Guide Access पाएं</strong><br>
+Payment के बाद video access मिलेगा।
 </li>
 
 <li>
-Payment के बाद आपको video guide access मिलेगा।
-</li>
-
-<li>
-अपने समय के अनुसार video देखकर recipe बनाना सीखें।
+<strong>देखें और घर पर बनाएं</strong><br>
+Watch the guide and prepare the recipe at home.
 </li>
 
 </ol>
@@ -575,24 +541,22 @@ Payment के बाद आपको video guide access मिलेगा।
 </div>
 
 
-<div class="box experience">
+<div class="box">
 
 <h2>
-📊 मेरा अनुभव
+🚌 Travel के लिए तैयार रखें
 </h2>
 
 <p>
-इस Recipe को तैयार करने के लिए मैंने करीब
-<strong>3 साल तक लगातार मेहनत और अलग-अलग प्रयास</strong> किए हैं।
+Recipe को पहले से तैयार करके अपने अगले सफर के लिए
+साथ रखा जा सकता है।
 </p>
 
-<p>
-अब तक मिले feedback में कई लोगों ने इसे सकारात्मक
-बताया है। हालांकि हर व्यक्ति का अनुभव अलग हो सकता है।
+<p class="english">
+Prepare it in advance and keep it ready for your next journey.
 </p>
 
 </div>
-
 
 </div>
 
@@ -606,35 +570,36 @@ SPECIAL ACCESS
 </div>
 
 <h2>
-🎥 पूरी Video Guide
+🎥 Complete Video Guide
 </h2>
 
 <p>
-एक बार Travel Ginger Candy बनाना सीखें और फिर
-जब चाहें अपने लिए तैयार करें।
+पूरी Recipe • Step-by-Step Video • Lifetime Access
+</p>
+
+<p class="english">
+Learn my special Travel Ginger Candy recipe at your own pace.
 </p>
 
 <div class="amount">
-₹799
+₹199
 </div>
 
 <div class="lifetime">
-♾️ Lifetime Access
+♾️ One-Time Payment • Lifetime Access
 </div>
 
-<a class="buy"
-href="YOUR_PAYMENT_LINK_HERE">
+<!-- RAZORPAY LINK WILL BE ADDED HERE -->
 
-🔒 अभी Video Guide खरीदें
+<a class="buy"
+href="YOUR_RAZORPAY_PAYMENT_LINK_HERE">
+
+🔒 अभी खरीदें • BUY NOW ₹199
 
 </a>
 
 <div class="secure">
-
-Secure payment के बाद access मिलेगा
-<br>
-एक बार payment • Lifetime access
-
+Secure payment • Payment के बाद access
 </div>
 
 </div>
@@ -645,7 +610,7 @@ Secure payment के बाद access मिलेगा
 <div class="box">
 
 <h2>
-❓ अक्सर पूछे जाने वाले सवाल
+❓ FAQ • अक्सर पूछे जाने वाले सवाल
 </h2>
 
 
@@ -656,7 +621,29 @@ Secure payment के बाद access मिलेगा
 </b>
 
 <p>
-हाँ, video guide को मोबाइल पर देखा जा सकता है।
+हाँ, video guide मोबाइल पर देखी जा सकती है।
+</p>
+
+<p class="english">
+Yes, the video guide can be watched on a mobile phone.
+</p>
+
+</div>
+
+
+<div class="faq">
+
+<b>
+क्या इसे घर पर बनाया जा सकता है?
+</b>
+
+<p>
+हाँ, इस video guide में घर पर recipe तैयार करने की प्रक्रिया
+समझाई जाएगी।
+</p>
+
+<p class="english">
+Yes, the guide explains the preparation process at home.
 </p>
 
 </div>
@@ -669,8 +656,12 @@ Secure payment के बाद access मिलेगा
 </b>
 
 <p>
-इसका उद्देश्य इसे पहले से तैयार करके
-सफर के समय साथ रखना है।
+हाँ, recipe को तैयार करके travel के समय साथ रखने के
+उद्देश्य से बनाया गया है।
+</p>
+
+<p class="english">
+Yes, it can be prepared in advance and carried during travel.
 </p>
 
 </div>
@@ -679,30 +670,40 @@ Secure payment के बाद access मिलेगा
 <div class="faq">
 
 <b>
-क्या हर व्यक्ति को समान परिणाम मिलेगा?
+क्या यह medical treatment है?
 </b>
 
 <p>
-नहीं। लेकिन 10 में से 8 लोगो ने इसको माना है और बताया कि यह काम करता है।
+नहीं। यह एक food recipe और video guide है,
+जो मेरी व्यक्तिगत recipe और अनुभव पर आधारित है।
+</p>
+
+<p class="english">
+No. This is a food recipe and video guide based on my
+personal recipe and experience.
 </p>
 
 </div>
 
-
 </div>
 
 
-<!-- DISCLAIMER -->
+<!-- IMPORTANT NOTICE -->
 
 <div class="box note">
 
 <h2>
-⚠️ जरूरी सूचना
+⚠️ जरूरी सूचना • Important Notice
 </h2>
 
 <p>
-यह मेरी व्यक्तिगत खोज, प्रयोग और अनुभव पर आधारित Recipe है।
+यह video मेरी व्यक्तिगत recipe, खोज और अनुभव पर आधारित है।
+हर व्यक्ति का अनुभव अलग हो सकता है।
+</p>
 
+<p class="english">
+This guide is based on my personal recipe, experimentation
+and experience. Individual experiences may vary.
 </p>
 
 </div>
@@ -715,14 +716,20 @@ Secure payment के बाद access मिलेगा
 
 <footer>
 
-© 2026 Travel Ginger Candy
+<strong>
+🌿 Travel Ginger Candy
+</strong>
 
 <br>
 
-Made with ❤️ for better travel experiences
+Made with ❤️ for Better Travel Moments
+
+<br><br>
+
+© 2026 Travel Ginger Candy
 
 </footer>
 
 
 </body>
-  </html>
+</html>
